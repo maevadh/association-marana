@@ -7,3 +7,19 @@
   font-size: 15px;
   padding-right: 158px;
 }
+
+.video-container {
+  position: relative;
+}
+
+.video {
+  max-width: 100%;
+  height: auto;
+}
+
+.video-text {
+  position: absolute;
+  top: 83px;
+  left: 13px;
+  color: aliceblue;
+}
