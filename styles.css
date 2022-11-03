@@ -1,6 +1,9 @@
+.bold {
+  font-weight: bold;
+}
+
 .logo {
   width: 50px;
-  top: 22px;
 }
 
 .name-asso {
