@@ -10,3 +10,12 @@
   font-size: 15px;
   padding-right: 158px;
 }
+
+.color-bright-gray {
+  background-color: #efefef;
+}
+
+.quote {
+  border-left: 2px solid;
+  border-color: #ffc825;
+}
