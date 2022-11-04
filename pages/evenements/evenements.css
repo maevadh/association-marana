@@ -21,12 +21,6 @@
   color: white;
 }
 
-.img-fish {
-  background-color: #00455c;
-  max-width: 100%;
-  height: auto;
-}
-
 .bg-img {
   background-image: url(../../img/fish.jpg);
   height: 37px;
