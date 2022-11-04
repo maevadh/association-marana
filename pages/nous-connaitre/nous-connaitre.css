@@ -24,3 +24,20 @@
   background-color: #ffc825;
   height: 230px;
 }
+
+.contact-button {
+  background-color: #ffa800;
+  border: none;
+}
+
+.footer-color {
+  background-color: #D9D9D9;
+}
+
+.box-activities {
+  background-color: #faf7f7;
+}
+
+.contact-box {
+  font-size: x-small;
+}
