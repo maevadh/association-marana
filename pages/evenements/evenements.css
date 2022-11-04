@@ -10,3 +10,26 @@
   font-size: 15px;
   padding-right: 158px;
 }
+
+.title-events {
+  font-size: 25px;
+  height: 100%;
+}
+
+.bg-events {
+  background-color: #00455c;
+  color: white;
+}
+
+.img-fish {
+  background-color: #00455c;
+  max-width: 100%;
+  height: auto;
+}
+
+.bg-img {
+  background-image: url(../../img/fish.jpg);
+  height: 37px;
+  background-position: 30% 50%;
+  background-size: cover;
+}
