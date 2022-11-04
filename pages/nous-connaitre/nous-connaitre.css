@@ -19,3 +19,8 @@
   border-left: 2px solid;
   border-color: #ffc825;
 }
+
+.box-data {
+  background-color: #ffc825;
+  height: 230px;
+}
