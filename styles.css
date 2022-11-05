@@ -8,7 +8,7 @@
 
 .name-asso {
   font-size: 15px;
-  padding-right: 158px;
+  width: 100%;
 }
 
 .video-container {
@@ -22,7 +22,7 @@
 
 .video-text {
   position: absolute;
-  top: 83px;
+  top: 39%;
   left: 13px;
   color: aliceblue;
 }
@@ -31,8 +31,13 @@
   background-color: rgb(222, 166, 111, 0.2);
 }
 
-.box-percent-color {
-  background-color: #faf7f7;
+.box-percent {
+  background-color: #cfcccc;
+}
+
+.box-percent:nth-child(2) {
+  margin-top: 16px;
+  margin-bottom: 16px;
 }
 
 .color-text-2050 {
@@ -50,4 +55,45 @@
 
 .footer-color {
   background-color: #d9d9d9;
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+  .video-text {
+    font-size: x-large;
+    background-color: #0000001f;
+    left: 0;
+    padding: 0 13px;
+    border-radius: 8px;
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  .name-asso {
+    width: auto;
+  }
+
+  .navbar-collapse {
+    justify-content: end;
+  }
+
+  .box-percent-container {
+    display: flex;
+    align-items: baseline;
+    margin-top: 0;
+  }
+
+  .box-percent-color {
+    margin: 10px;
+    padding: 25px;
+  }
+
+  .box-percent:nth-child(2) {
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 5px;
+  }
 }
