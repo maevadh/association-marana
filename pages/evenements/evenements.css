@@ -8,7 +8,7 @@
 
 .name-asso {
   font-size: 15px;
-  padding-right: 158px;
+  flex: 1;
 }
 
 .title-events {
@@ -16,9 +16,10 @@
   height: 100%;
 }
 
-.bg-events {
+.events-container {
   background-color: #00455c;
   color: white;
+  padding-top: 10px;
 }
 
 .bg-img {
@@ -28,6 +29,25 @@
   background-size: cover;
 }
 
-.footer-color {
+.footer-container {
   background-color: #d9d9d9;
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+  .events-container {
+    text-align: center;
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  .name-asso {
+    width: auto;
+    font-size: larger;
+  }
+
+  .navbar-collapse {
+    justify-content: end;
+  }
 }
