@@ -28,11 +28,13 @@
 }
 
 .text-ecosystem {
-  background-color: rgb(222, 166, 111, 0.2);
+  background-color: #FAF7F0;
 }
 
 .box-percent {
-  background-color: #cfcccc;
+  background-color: #FAF7F0;
+  border-radius: 3px;
+  padding: 10px;
 }
 
 .box-percent:nth-child(2) {
@@ -81,6 +83,7 @@
 
   .text-protection {
     text-align: center;
+    text-align: justify;
   }
 
   .box-percent-container {
@@ -99,7 +102,6 @@
     margin-bottom: 0;
     margin-left: 10px;
     margin-right: 10px;
-    padding: 5px;
   }
 
   .video-text {
