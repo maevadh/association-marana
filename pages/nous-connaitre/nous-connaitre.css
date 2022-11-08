@@ -14,24 +14,24 @@
 .quote {
   border-left: 2px solid;
   border-color: #ffc825;
-  width: 90%;
+  margin: 20px;
   max-width: 675px;
   padding: 30px;
-  margin: 20px;
   text-align: justify;
+  width: 90%;
 }
 
 .container-about-us {
-  width: 100%;
   text-align: justify;
+  width: 100%;
 }
 
 .box-data {
   background-color: #ffc825;
   border-radius: 3px;
   height: 80%;
-  padding-top: 25px;
   padding-bottom: 25px;
+  padding-top: 25px;
 }
 
 .box-data-size {
@@ -75,8 +75,8 @@
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
   .name-asso {
-    width: auto;
     font-size: larger;
+    width: auto;
   }
 
   .navbar-collapse {

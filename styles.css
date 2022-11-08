@@ -7,8 +7,8 @@
 }
 
 .name-asso {
-  font-size: 15px;
   flex: 1;
+  font-size: 15px;
 }
 
 .video-container {
@@ -16,15 +16,15 @@
 }
 
 .video {
-  max-width: 100%;
   height: auto;
+  max-width: 100%;
 }
 
 .video-text {
+  color: aliceblue;
+  left: 13px;
   position: absolute;
   top: 39%;
-  left: 13px;
-  color: aliceblue;
 }
 
 .text-ecosystem {
@@ -38,8 +38,8 @@
 }
 
 .box-percent:nth-child(2) {
-  margin-top: 16px;
   margin-bottom: 16px;
+  margin-top: 16px;
 }
 
 .color-text-2050 {
@@ -62,19 +62,19 @@
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {
   .video-text {
-    font-size: x-large;
     background-color: #0000001f;
+    border-radius: 0 8px 8px 0;
+    font-size: x-large;
     left: 0;
     padding: 7px 14px;
-    border-radius: 0 8px 8px 0;
   }
 }
 
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
   .name-asso {
-    width: auto;
     font-size: larger;
+    width: auto;
   }
 
   .navbar-collapse {
@@ -87,8 +87,8 @@
   }
 
   .box-percent-container {
-    display: flex;
     align-items: baseline;
+    display: flex;
     margin-top: 0;
   }
 
@@ -98,10 +98,10 @@
   }
 
   .box-percent:nth-child(2) {
-    margin-top: 0;
     margin-bottom: 0;
     margin-left: 10px;
     margin-right: 10px;
+    margin-top: 0;
   }
 
   .video-text {
