@@ -26,6 +26,9 @@
   position: absolute;
   top: 39%;
 }
+.text-protection {
+  text-align: justify;
+}
 
 .text-ecosystem {
   background-color: #FAF7F0;
